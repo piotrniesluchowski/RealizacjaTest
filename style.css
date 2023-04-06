@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@400;700&display=swap');
+*
+{
+    padding: 0%;
+    margin: 0%;
+    color: #303036;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+header
+{
+    background: rgb(30, 102, 131);
+    background-size:100%;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 30vw;
+    height: 100px;
+    font-size: 3rem;
+}
+li
+{
+    color: white;
+}
+.navButtons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    list-style-type: none;
+    min-width: 30vw;
+    width: 60vw;
+    height: 100px;
+    font-size: 1.4em;
+}
+.navButtons li
+{
+    padding: 1.5em;
+}
+.headerText
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    font-size: 2.5rem;
+}
+.headerText h1
+{
+    color: #F6F6F6;
+}
+.advantages
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+}
+.boxes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+}
+.box
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    height: 80%;
+    margin: 1em;
+    font-size: 1.4em;
+    text-align: center;
+}
+.box img
+{
+    width: 80px;
+    padding: 0.9em;
+    height: auto;
+    border: 4px solid rgb(75, 75, 75);
+    border-radius: 100%;
+}
+.box img:hover
+{
+    background-color: #1E6683;
+    width: 80px;
+    padding: 0.9em;
+    height: auto;
+    border: 4px solid rgb(75, 75, 75);
+    border-radius: 100%;
+}
+.about
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #F6F6F6;
+}
+.aboutcenter
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+}
+.leftText
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 90%;
+}
+.leftText h3
+{
+    font-size:  2rem;
+}
+.leftText p
+{
+    font-size:  1.2rem;
+    margin: 1.2em;
+}
+.Aboutusbutton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 10vw;
+    height: 5vh;
+}
+.Aboutusbutton:hover
+{
+    background-color: #1E6683;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 10vw;
+    height: 5vh;
+}
+.rightPhoto
+{
+    background: black;
+    width: 35vw;
+    height: 90%;
+}
+.stats
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+}
+.statscenter
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+}
+.stats h1
+{
+    font-size: 4rem;
+    border-bottom: 4px solid black;
+}
+.whywe
+{
+    background: #F6F6F6;
+    text-align: center;
+
+}
+.whywe h1
+{
+   font-size: 4rem;
+}
+.whywe h3
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-size: 2rem;
+}
+.whywegrid
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5em;
+    grid-template-columns: 15vw 15vw 15vw;
+    width: 100%;
+    height: 65vh;
+}
+.whywegrid h1
+{
+    display: flex;
+    width: fit-content;
+    text-align: left;
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+}
+.whywe p
+{
+    display: flex;
+    text-align: left;
+    font-size: 1.2em;
+}
+.opis
+{
+    text-align: center;
+    height: auto;
+}
+footer
+{
+    background: #1E6683;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+footer h1
+{
+    color: white;
+}
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 65vh;
+}
+.contact form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 55vh;
+}
+.contact input
+{
+    margin: 0.5em;
+    width: 20vw;
+    padding: 1em;
+}
+.contact textarea
+{
+    margin: 0.5em;
+    width: 20vw;
+    height: 17vh;
+    padding: 1em;
+}
+.contact-form
+{   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+}
+.contact-form h1
+{   
+    font-size: 2em;
+}
